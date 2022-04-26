@@ -1,0 +1,40 @@
+body, html{
+    height: 100%;
+}
+.cuadro{
+    border: 1px solid black;
+    opacity: 0;
+    cursor: pointer;
+    transition: opacity ease 0.2s;
+}
+#fin-del-juego{
+    display: none;
+}
+
+.columna-juego{
+    border: 1px solid black
+}
+.fila-juego{
+    height: 25vh;
+}
+.completo{ /* para cuando se completa el cuadro */
+    background-color: darkgray;
+}
+.rojo{
+    background-color: red;
+}
+.amarillo{
+    background-color: yellow;
+}
+.verde{
+    background-color: green;
+}
+.azul{
+    background-color: blue;
+}
+.violeta{
+    background-color: violet;
+}
+.negro{
+    background-color: black;
+}
